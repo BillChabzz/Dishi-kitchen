@@ -1,0 +1,94 @@
+html{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+section{
+    width: 100%;
+}
+/*
+*
+* Top level navigation
+*
+*/
+nav ul > li{
+    display: inline-block
+}
+
+/*
+*
+*Banner
+*/
+#kitchen__banner{
+    width: 100%;
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+}
+.banner{width: 100%;}
+.image-banner{
+    position: relative;
+    width: 100%;
+}
+.detail{
+    position: absolute;
+    bottom: 80px;
+    left: 380px;
+}
+
+/*
+*
+*Kitchen logo
+*
+*/
+
+
+
+/*
+*
+*k-inner__nav
+*
+*/
+
+/*
+*
+*side__nav
+*
+*/
+#side__menu{
+    background-color: darkgrey;
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+#side__menu li{
+    display: block;
+  
+/*
+*
+*Kitchen content
+*    
+*/    
+}
+#kitchen__content{
+    height: 100%;
+    background-color: bisque;
+    float: right;
+    width: 80%;
+}
+.card{
+    width: 450px;
+    height: 500px;
+}
+.menu-pic{
+    height:200px ;
+    background-color: beige
+}
+.menu{
+    height: 300px;
+    background-color: floralwhite;
+}
