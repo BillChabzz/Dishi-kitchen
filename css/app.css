@@ -10,12 +10,16 @@ ul{
 section{
     width: 100%;
 }
+a:hover{
+    background-color: brown;
+    color: #fff;
+}
 /*
 *
 * Top level navigation
 *
 */
-nav ul > li{
+nav ul  li{
     display: inline-block
 }
 
@@ -29,7 +33,7 @@ nav ul > li{
     height: 350px;
     overflow: hidden;
 }
-.banner{width: 100%;}
+.banner{width: 100%;height:}
 .image-banner{
     position: relative;
     width: 100%;
@@ -49,16 +53,42 @@ nav ul > li{
 
 
 /*
-*
+*Kitchen__menu
 *k-inner__nav
 *
 */
-
+#kitchen__menu {
+	height: 60px;
+    padding: 1%;
+}
+.k-inner__nav ul li{
+	height: 50px;
+}
+.k-inner__nav ul li a{
+    padding: 5% 0;
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 100%;
+    vertical-align: middle;
+}
 /*
 *
 *side__nav
 *
 */
+.side__nav ul li {
+	display: block;
+    height: 50px;
+    width: 100%;
+}
+.side__nav ul li a{
+    padding: 5% 0;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    height: 100%;
+}
 #side__menu{
     background-color: darkgrey;
     float: left;
