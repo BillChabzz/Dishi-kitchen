@@ -20,8 +20,9 @@ a:hover{
 *
 */
 nav ul  li{
-    display: inline-block
+    display: inline-block;
 }
+
 
 /*
 *
@@ -116,7 +117,7 @@ nav ul  li{
 }
 .menu-pic{
     height:200px ;
-    background-color: beige
+    background-color: beige;
 }
 .menu{
     height: 300px;
