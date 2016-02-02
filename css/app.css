@@ -34,10 +34,11 @@ nav ul  li{
     height: 350px;
     overflow: hidden;
 }
-.banner{width: 100%;height:}
+.banner{width: 100%;height:100%;}
 .image-banner{
     position: relative;
     width: 100%;
+    height: 100%;
 }
 .detail{
     position: absolute;
